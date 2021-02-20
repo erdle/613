@@ -1,6 +1,26 @@
+.h22 {
+  color: var(--tx1);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 90%;
+}
+.p22 {
+  color: var(--tx1);
+  font-family: 'Noto';
+  letter-spacing: -0.03rem;
+  padding: 2rem 0 2rem 0;
+  max-width: 100%;
+  font-weight: 300;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120.69%;
+  text-align: left;
+  letter-spacing: -0.03rem;
+}
+
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
