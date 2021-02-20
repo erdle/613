@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import Image from 'next/Image';
+// import Image from 'next/Image';
 import { Cta } from '../components/Cta';
 
 export default function Home() {
@@ -27,7 +27,7 @@ export default function Home() {
             </div>
           </div>
           <div className="section__cover">
-            <Image src="/cover.png" width="500" height="500" />
+            {/* <Image src="/cover.png" width="500" height="500" /> */}
           </div>
         </div>
       </div>
