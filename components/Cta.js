@@ -37,11 +37,10 @@ export const Cta = () => {
                   },
                 })}
               />
-              <Button>
-                <button type="submit" value="validate">
-                  Sign in
-                </button>
-              </Button>
+
+              <button type="submit" value="validate">
+                Sign in
+              </button>
             </form>
           </div>
         )}
