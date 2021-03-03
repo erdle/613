@@ -20,11 +20,21 @@
 }
 
 .container {
+  background-color: var(--bg1);
   min-height: 100vh;
+
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+}
+
+.layout {
+  width: min(47rem, 85%);
+  margin: 0 auto;
+  z-index: 2;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: 0.1fr 1fr;
 }
 
 .main {

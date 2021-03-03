@@ -4,18 +4,18 @@ export const Button = () => {
   return (
     <>
       <div className="button">
-        <span>Start Exploring</span>
+        <span>Join</span>
       </div>
       <style jsx>{`
         .button {
-          border-radius: 10.9062px;
+          border-radius: 15.9062px;
           cursor: pointer;
           font-size: 18px;
           border: 2px solid var(--tx1);
           margin: 0.2rem;
-          width: 150.08px;
+          width: 120.08px;
           padding: 0 auto;
-          height: 45px;
+          height: 42px;
           font-weight: 400;
           color: var(--bg1);
           background-color: var(--tx1);

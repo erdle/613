@@ -15,16 +15,14 @@ export const Cta = () => {
   return (
     <>
       <div>
-        {auth.user?.email}
-
         {auth.user ? (
-          <button onClick={() => auth.signout()}>LOG OUT</button>
+          <div></div>
         ) : (
           <div>
             <button onClick={() => auth.signinWithGoogle()}>
-              Continue with google
+              Continue with Google
             </button>
-            <span>Email:</span>
+            {/* <span>Email:</span>
             <form onSubmit={handleSubmit(onSubmit)}>
               <input
                 name="email"
@@ -41,19 +39,30 @@ export const Cta = () => {
               <button type="submit" value="validate">
                 Sign in
               </button>
-            </form>
+            </form> */}
           </div>
         )}
 
-        <div className="secondaryCTA">
+        {/* <div className="secondaryCTA">
           Own a<span className="highlight">local business?</span>
           <Link href="/dashboard">
             <a>About Us</a>
           </Link>
           Get Featured!
-        </div>
+        </div> */}
       </div>
       <style jsx>{`
+        button {
+          height: 53px;
+          width: 250px;
+          background: none;
+          border: 1px solid white;
+          border-radius: 18px;
+          color: white;
+          font-size: 21px;
+          cursor: pointer;
+        }
+
         .form {
           display: flex;
           place-items: center;
