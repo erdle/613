@@ -13,6 +13,7 @@ export default function Home() {
           <Head>
             <title>613 News</title>
             <link rel="icon" href="/cover.svg" />
+            <meta name="theme-color" content="black" />
           </Head>
           <div className={styles.layout}>
             <div className="header">

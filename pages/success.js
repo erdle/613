@@ -1,5 +1,7 @@
 import Head from 'next/head';
+import { FormProvider } from 'react-hook-form';
 import styles from '../styles/Home.module.css';
+import { Cta } from '../components/Cta';
 
 export default function Dashboard() {
   return (
@@ -30,6 +32,9 @@ export default function Dashboard() {
                 our emails, make sure to do the following:
               </span>
             </p>
+            <div className="section__cta">
+              <Cta />
+            </div>
             <div className="todolist">
               <div className="todolist__item">
                 <div className="item__graphic">☝️</div>
@@ -63,6 +68,9 @@ export default function Dashboard() {
         </div>
       </div>
       <style jsx>{`
+        .section__cta {
+          margin-top: 2rem;
+        }
         .header {
           background-color: transparent;
           z-index: 2;
@@ -146,7 +154,7 @@ export default function Dashboard() {
         .item__tagline {
           padding-top: 1rem;
           font-family: Noto;
-          font-size: min(5vw, 21px);
+          font-size: min(6vw, 21px);
 
           font-style: normal;
           font-weight: 700;
@@ -159,7 +167,7 @@ export default function Dashboard() {
         .item__description {
           padding-top: 2rem;
           font-family: Noto;
-          font-size: min(4vw, 21px);
+          font-size: min(5vw, 21px);
 
           font-style: normal;
           font-weight: 400;

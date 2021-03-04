@@ -20,6 +20,7 @@ export const Cta = () => {
         ) : (
           <div>
             <button onClick={() => auth.signinWithGoogle()}>
+              <img src="/google.png"></img>
               Continue with Google
             </button>
             {/* <span>Email:</span>
@@ -59,8 +60,16 @@ export const Cta = () => {
           border: 1px solid white;
           border-radius: 18px;
           color: white;
-          font-size: 21px;
+          font-size: 19px;
           cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        img {
+          max-height: 25px;
+          padding-right: 5px;
         }
 
         .form {
