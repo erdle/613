@@ -25,7 +25,8 @@ export default function Home() {
                 {auth.user ? (
                   <button onClick={() => auth.signout()}>Log Out</button>
                 ) : (
-                  <Button />
+                  // <Button />
+                  <></>
                 )}
               </div>
             </div>

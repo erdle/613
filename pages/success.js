@@ -154,7 +154,7 @@ export default function Dashboard() {
         .item__tagline {
           padding-top: 1rem;
           font-family: Noto;
-          font-size: min(6vw, 21px);
+          font-size: min(7vw, 21px);
 
           font-style: normal;
           font-weight: 700;
@@ -167,7 +167,7 @@ export default function Dashboard() {
         .item__description {
           padding-top: 2rem;
           font-family: Noto;
-          font-size: min(5vw, 21px);
+          font-size: min(6.5vw, 21px);
 
           font-style: normal;
           font-weight: 400;
